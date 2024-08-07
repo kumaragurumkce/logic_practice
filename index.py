@@ -1,3 +1,81 @@
+# def printOrder(arr,n) :
+#     # sorting the array
+#     arr.sort()
+#     i=0
+#     while i<=n/2:
+#         print(arr[i])
+#         i=i+1
+#     j=n-1
+#     while j>=n/2:
+#         print(arr[j])
+#         j=j-1
+# # Driver code
+# arr = [5, 4, 6, 2, 1, 3, 8, 9, 7]
+# n = len(arr)
+# printOrder(arr, n)
+
+# def rev(A,start,end):
+#     if start>=end:
+#         return
+#     A[start],A[end]=A[end],A[start]
+#     rev(A,start+1,end-1)
+
+# A=[10,20,30,40,50]
+# rev(A,0,4)
+# print(A)
+# #calculate the sum of element in an array
+# arr1=[10,89,9,56,4,80,8]
+# sums=0
+# for i in range(0,len(arr1)):
+#     sums=sums+arr1[i]
+# print(sums)
+# #find second smallest number in bytearray
+# import math
+# arr=[1,2,3,4,5,6,7,8,9]
+# first=0
+# second=0
+# for i in range(0,len(arr)):
+#     if arr[i]>first:
+#         first=arr[i]
+
+# for i in range(0,len(arr)):
+#     if arr[i]!=first and arr[i]>second:
+#         second=arr[i]
+
+# print(second)
+    
+    
+# #Occurrence of  igit in a given number
+# d=2
+# num=12234563222
+# count=0
+# while num>0:
+#     if num%10 == d:
+#         count=count+1
+#     num=num//10
+# print(count)
+
+# # count_digit
+
+# def fun(num):
+#     digit=0
+#     while num>0:
+#         num=num//10
+#         digit=digit+1
+#     return digit
+
+# num=12345
+# print(fun(num))
+
+# num1=12345678000
+# digit=0
+# while num1>0:
+#     num1=num1//10
+#     digit=digit+1
+# print(digit)
+
+
+
 # # strong number
 # no=145
 # no2=no
@@ -16,7 +94,7 @@
     
     
     
-print(220/10)
+# print(220/10)
 # find factors of number
 
 # num=100
